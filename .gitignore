@@ -1,21 +1,22 @@
 
-# Python virtual environments
+# Python environments and cache
 .venv/
 venv/
-env/
-
-# Python cache
 __pycache__/
 *.py[cod]
 
-# Local data and generated model artifacts
+# Local datasets
 data/
-models/
 
-# Secrets and environment variables
+# Ignore generated model files by default
+models/*
+
+# Include the trained model and dashboard metrics
+!models/scamshield_model.joblib
+!models/model_metrics.json
+
+# Secrets and local settings
 .env
 .env.*
-
-# Local editor settings
 .vscode/
 .DS_Store
