@@ -1,0 +1,21 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local data and generated model artifacts
+data/
+models/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Local editor settings
+.vscode/
+.DS_Store
