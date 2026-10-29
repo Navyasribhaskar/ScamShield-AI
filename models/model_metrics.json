@@ -1,0 +1,24 @@
+{
+    "accuracy": 0.9757751937984496,
+    "spam_precision": 0.8814814814814815,
+    "spam_recall": 0.9296875,
+    "spam_f1": 0.9049429657794676,
+    "confusion_matrix": [
+        [
+            888,
+            16
+        ],
+        [
+            9,
+            119
+        ]
+    ],
+    "test_samples": 1032,
+    "label_order": [
+        "legitimate",
+        "spam"
+    ],
+    "dataset": "UCI SMS Spam Collection",
+    "test_size": 0.2,
+    "random_state": 42
+}
